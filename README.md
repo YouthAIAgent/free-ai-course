@@ -1,220 +1,226 @@
-# 🚀 FREE AI ENGINEER COURSE
-## 12 Weeks - Zero to Production
+# 🎓 Free AI Engineer Course
 
-**Made for Community | 100% Free | Build on Any Device**
+[![GitHub stars](https://img.shields.io/github/stars/YouthAIAgent/free-ai-course?style=social)](https://github.com/YouthAIAgent/free-ai-course/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/YouthAIAgent/free-ai-course?style=social)](https://github.com/YouthAIAgent/free-ai-course/network)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Course Duration](https://img.shields.io/badge/Duration-12%20Weeks-green.svg)](README.md)
+[![Level](https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-orange.svg)](README.md)
+[![Cost](https://img.shields.io/badge/Cost-100%25%20FREE-red.svg)](README.md)
 
----
-
-## 📋 COURSE OVERVIEW
-
-| Duration | Level | Focus |
-|----------|-------|-------|
-| 12 Weeks | Beginner to Intermediate | AI Engineering |
-
-**No coding experience required!**
-**No paid APIs needed!**
-**Runs on any laptop/PC!**
+**Zero to AI Engineer in 12 Weeks | 100% Free | Build on Any Device**
 
 ---
 
-## 🎯 WHAT YOU'LL BUILD
+<div align="center">
 
-- Week 4: AI Chatbot with Memory
-- Week 8: Research Agent with Tools
-- Week 12: Full RAG System + Portfolio Project
+| 🕐 Duration | 💰 Cost | 🖥️ Requirement | 📚 Lessons | 🏆 Projects |
+|:----------:|:------:|:---------------:|:----------:|:-----------:|
+| 12 Weeks | FREE | 8GB+ RAM | 36+ | 3 |
 
----
-
-## 📅 WEEKLY BREAKDOWN
-
-### 🔵 WEEK 1-4: LLM Foundation
-```
-Week 1: Install Ollama + Run First AI Model
-Week 2: Python Basics + LangChain Setup
-Week 3: Build Chatbot + Add Memory
-Week 4: Project - Personal AI Assistant
-```
-
-### 🟢 WEEK 5-8: Agentic AI
-```
-Week 5: LangGraph Fundamentals
-Week 6: Tool Calling + Web Search
-Week 7: Multi-Agent Systems
-Week 8: Project - Research Agent
-```
-
-### 🟡 WEEK 9-12: RAG + Production
-```
-Week 9: Vector Databases + Embeddings
-Week 10: LlamaIndex RAG Pipeline
-Week 11: Evaluation + Testing
-Week 12: Project - Document Q&A System + Certificate
-```
+</div>
 
 ---
 
-## 💰 COST: ₹0 (Fully Free)
+## 🎯 What You'll Build
 
-| Component | Cost |
-|-----------|------|
-| Python | Free |
-| Ollama | Free |
-| LangChain | Free |
-| LangGraph | Free |
-| LlamaIndex | Free |
-| Models | Free (Local) |
+| Week | Project | Skills |
+|:----:|---------|--------|
+| **4** | 🤖 Personal AI Chatbot with Memory | LangChain, Memory |
+| **8** | 🔍 Research Agent with Tools | LangGraph, Tool Calling |
+| **12** | 📚 Document Q&A System + Certificate | RAG, LlamaIndex |
 
 ---
 
-## 🖥️ REQUIREMENTS
+## 🚀 Quick Start
 
-- **Laptop/PC** with 8GB+ RAM (16GB recommended)
-- **Ubuntu 22.04+ / Windows 10+ / macOS**
-- **Internet** (for initial setup)
-
----
-
-## 🚀 QUICK START
+### 1️⃣ Install Ollama (30 seconds)
 
 ```bash
-# 1. Open Terminal and run:
+# Linux / macOS
 curl -fsSL https://ollama.com/install.sh | sh
 
-# 2. Download first model:
+# Windows → Download from https://ollama.com/download
+
+# Android (Termux)
+pkg install ollama
+```
+
+### 2️⃣ Download Model (2 minutes)
+
+```bash
 ollama pull qwen2.5:3b
+```
 
-# 3. Test:
-ollama run qwen2.5:3b "Hello!"
+### 3️⃣ Start Learning
 
-# 4. Start Course:
-cd ~/free-ai-course
+```bash
+# Clone course
+git clone https://github.com/YouthAIAgent/free-ai-course.git
+cd free-ai-course
+
+# Read course
 cat README.md
 ```
 
 ---
 
-## 📚 COURSE CONTENT
+## 📋 Course Structure
 
-### WEEK 1: SETUP & FIRST AI
-| Day | Topic | File |
-|-----|-------|------|
-| 1 | Install Ollama | `Week1-Week4/Lessons/Day1.md` |
-| 2 | Run First Model | `Week1-Week4/Lessons/Day2.md` |
-| 3 | Basic Commands | `Week1-Week4/Lessons/Day3.md` |
-| 4 | Python Basics | `Week1-Week4/Lessons/Day4.md` |
-| 5 | LangChain Intro | `Week1-Week4/Lessons/Day5.md` |
+```
+📅 12 Weeks | 36 Lessons | 3 Projects | 1 Certificate
+```
 
-### WEEK 2: BUILD FIRST APP
+### 🔵 Phase 1: LLM Foundation (Week 1-4)
 | Day | Topic | File |
-|-----|-------|------|
-| 6 | LangChain Setup | `Week1-Week4/Lessons/Day6.md` |
-| 7 | First LLM App | `Week1-Week4/Lessons/Day7.md` |
-| 8 | Prompt Templates | `Week1-Week4/Lessons/Day8.md` |
-| 9 | Chat Models | `Week1-Week4/Lessons/Day9.md` |
-| 10 | Exercise | `Week1-Week4/Lessons/Day10.md` |
+|:---:|-------|------|
+| 1 | Install Ollama | [`Day1.md`](Week1-Week4/Lessons/Day1.md) |
+| 2 | Commands + Python | [`Day2.md`](Week1-Week4/Lessons/Day2.md) |
+| 3 | First AI Application | [`Day3.md`](Week1-Week4/Lessons/Day3.md) |
+| 4 | Prompt Templates | [`Day4.md`](Week1-Week4/Lessons/Day4.md) |
+| 5 | Conversation Memory | [`Day5.md`](Week1-Week4/Lessons/Day5.md) |
+| 6-7 | Personal AI Project | [`Project1.md`](Week1-Week4/Projects/Project1.md) |
 
-### WEEK 3: MEMORY & CONTEXT
+### 🟢 Phase 2: Agentic AI (Week 5-8)
 | Day | Topic | File |
-|-----|-------|------|
-| 11 | Conversation Memory | `Week1-Week4/Lessons/Day11.md` |
-| 12 | Buffer Memory | `Week1-Week4/Lessons/Day12.md` |
-| 13 | Summary Memory | `Week1-Week4/Lessons/Day13.md` |
-| 14 | File Memory | `Week1-Week4/Lessons/Day14.md` |
+|:---:|-------|------|
+| 8 | LangGraph Fundamentals | [`Day8.md`](Week5-Week8/Lessons/Day8.md) |
+| 9 | Tool Calling | [`Day9.md`](Week5-Week8/Lessons/Day9.md) |
+| 10 | Multi-Agent Systems | [`Day10.md`](Week5-Week8/Lessons/Day10.md) |
 
-### WEEK 4: PROJECT WEEK
+### 🟡 Phase 3: RAG + Production (Week 9-12)
 | Day | Topic | File |
-|-----|-------|------|
-| 15 | Project Overview | `Week1-Week4/Projects/Project1.md` |
-| 16 | Step 1-2 | `Week1-Week4/Projects/Project1.md` |
-| 17 | Step 3-4 | `Week1-Week4/Projects/Project1.md` |
-| 18 | Step 5-6 | `Week1-Week4/Projects/Project1.md` |
-| 19 | Testing | `Week1-Week4/Projects/Project1.md` |
-| 20 | Submission | `Week1-Week4/Projects/Project1.md` |
+|:---:|-------|------|
+| 10 | RAG Basics | [`Day10.md`](Week9-Week12/Lessons/Day10.md) |
 
 ---
 
-## 🛠️ INSTALLATION COMMANDS
+## 🛠️ Installation Commands
 
-### OLLAMA (All Platforms)
-```bash
-# Linux/macOS
-curl -fsSL https://ollama.com/install.sh | sh
-
-# Windows - Download from https://ollama.com/download
-```
-
-### LANGCHAIN
-```bash
-pip install langchain langchain-ollama
-```
-
-### LANGGRAPH
-```bash
-pip install langgraph
-```
-
-### LLAMAINDEX
-```bash
-pip install llama-index
-```
+| Package | Command | Docs |
+|--------|---------|------|
+| **Ollama** | `curl -fsSL https://ollama.com/install.sh \| sh` | [Docs](https://ollama.com/docs) |
+| **LangChain** | `pip install langchain langchain-ollama` | [Docs](https://python.langchain.com) |
+| **LangGraph** | `pip install langgraph` | [Docs](https://langchain-ai.github.io/langgraph/) |
+| **LlamaIndex** | `pip install llama-index` | [Docs](https://docs.llamaindex.ai) |
+| **CrewAI** | `pip install crewai` | [Docs](https://docs.crewai.com) |
 
 ---
 
-## 🔗 FREE RESOURCES
+## 🔗 Free Resources & Repositories
 
-| Resource | Link |
-|----------|------|
-| Ollama Docs | https://ollama.com/docs |
-| LangChain Docs | https://python.langchain.com |
-| LangGraph Docs | https://langchain-ai.github.io/langgraph/ |
-| LlamaIndex Docs | https://docs.llamaindex.ai |
-| GitHub Course | https://github.com/langchain-ai/langchain |
-
----
-
-## 📱 COURSE REPOSITORIES (All Free)
-
-1. LangChain: https://github.com/langchain-ai/langchain
-2. LangGraph: https://github.com/langchain-ai/langgraph
-3. LlamaIndex: https://github.com/run-llama/llama_index
-4. Ollama: https://github.com/ollama/ollama
-5. CrewAI: https://github.com/crewAIInc/crewAI
+| # | Repository | Stars | Purpose |
+|:-:|-----------|:-----:|---------|
+| 1 | [LangChain](https://github.com/langchain-ai/langchain) | 55k ⭐ | LLM App Framework |
+| 2 | [LangGraph](https://github.com/langchain-ai/langgraph) | 15k ⭐ | Agentic Workflows |
+| 3 | [LlamaIndex](https://github.com/run-llama/llama_index) | 30k ⭐ | RAG Framework |
+| 4 | [Ollama](https://github.com/ollama/ollama) | 95k ⭐ | Local LLMs |
+| 5 | [CrewAI](https://github.com/crewAIInc/crewAI) | 22k ⭐ | Multi-Agent |
+| 6 | [Qdrant](https://github.com/qdrant/qdrant) | 25k ⭐ | Vector Database |
+| 7 | [Ragas](https://github.com/explodinggradients/ragas) | 8k ⭐ | RAG Evaluation |
+| 8 | [Awesome MCP](https://github.com/punkpeye/awesome-mcp-servers) | 12k ⭐ | MCP Servers |
+| 9 | [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 18k ⭐ | Templates |
+| 10 | [AI Agents Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 15k ⭐ | Curriculum |
 
 ---
 
-## 🎓 CERTIFICATE
+## 💰 Cost Breakdown
+
+| Component | Cost | Why Free? |
+|-----------|:----:|-----------|
+| Python | ₹0 | Open Source |
+| Ollama | ₹0 | Local models |
+| LangChain | ₹0 | Apache 2.0 |
+| LangGraph | ₹0 | MIT License |
+| LlamaIndex | ₹0 | MIT License |
+| Models | ₹0 | Ollama Hub |
+| **Total** | **₹0** | **100% Free!** |
+
+---
+
+## 🖥️ System Requirements
+
+| Component | Minimum | Recommended |
+|-----------|:-------:|:-----------:|
+| RAM | 8 GB | 16 GB |
+| Storage | 20 GB | 50 GB |
+| OS | Ubuntu 20.04 / Win 10 / macOS 12 | Any |
+| Internet | Only for setup | Not required |
+
+---
+
+## 🎓 Certificate
 
 After completing Week 12 project:
-1. Build a complete project
-2. Push to GitHub
-3. Fill Certificate form
-4. Get FREE Certificate!
+
+1. ✅ Build a complete project
+2. ✅ Push to your GitHub
+3. ✅ Submit project link
+4. 🎉 Get **FREE Certificate!**
 
 ---
 
-## 💬 COMMUNITY SUPPORT
+## 💬 Community
 
-- **Telegram Group:** (Add your group link)
-- **Discord:** (Add your discord)
-- **GitHub Issues:** For course help
+[![Telegram](https://img.shields.io/badge/Telegram-Join-2CA5E0?style=flat&logo=telegram)](https://t.me/)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord)](https://discord.gg/)
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Ask-181717?style=flat&logo=github)](https://github.com/YouthAIAgent/free-ai-course/issues)
+
+**Need Help?** Open an issue or join our community!
 
 ---
 
-## ✅ GET STARTED NOW
+## 📈 Learning Path
 
-```bash
-# 1. Install Ollama
-curl -fsSL https://ollama.com/install.sh | sh
-
-# 2. Pull a model
-ollama pull qwen2.5:3b
-
-# 3. Start learning
-cd ~/free-ai-course
+```
+WEEK 1-4          WEEK 5-8           WEEK 9-12
+─────────         ─────────          ─────────
+Ollama            LangGraph          RAG Systems
+LangChain         Tool Calling       LlamaIndex
+Memory            Multi-Agent        Production
+   ↓                 ↓                  ↓
+Project 1        Project 2          Project 3
+Chatbot          Research Agent     Document Q&A
 ```
 
 ---
 
-**ZERO TO AI ENGINEER IN 12 WEEKS! 🚀**
+## ✅ Prerequisites
 
-*Course made with ❤️ for the community*
+- **None!** This course starts from scratch
+- Basic computer knowledge
+- Willingness to learn
+- 8GB+ RAM computer
+
+---
+
+## 📖 How to Use This Course
+
+1. **Start with Day 1** - Follow each lesson sequentially
+2. **Practice daily** - 1-2 hours per day
+3. **Build projects** - Apply what you learn
+4. **Ask questions** - Use community support
+5. **Complete all 3 projects** - Get certificate
+
+---
+
+## 🏆 Top Contributors
+
+[![Contributors](https://img.shields.io/github/contributors/YouthAIAgent/free-ai-course)](https://github.com/YouthAIAgent/free-ai-course/graphs/contributors)
+
+---
+
+## 📝 License
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+This course is **100% free** for everyone. Use it, share it, build on it!
+
+---
+
+<div align="center">
+
+**⭐ Star this repo if you found it helpful!**
+
+Made with ❤️ for the community
+
+</div>
