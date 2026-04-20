@@ -106,6 +106,34 @@ cat README.md
 
 ---
 
+## 🔗 Free LLM APIs (No Credit Card!)
+
+> Permanent free tiers for text inference. Use these APIs instead of or alongside Ollama!
+
+| Provider | Free Tier | Models | Sign Up |
+|---------|-----------|--------|---------|
+| **Cohere** | 1,000 calls/month | Command R7, Embeddings | [Get Key](https://dashboard.cohere.com/api-keys) |
+| **Google Gemini** | 10 RPM | Gemini 2.5 Flash | [Get Key](https://aistudio.google.com/app/apikey) |
+| **Mistral AI** | ~1B tokens/month | Mistral Large, Codestral | [Get Key](https://console.mistral.ai/api-keys) |
+| **Z AI (GLM)** | Permanent free | GLM-4.7-Flash | [Get Key](https://open.bigmodel.cn/usercenter/apikeys) |
+| **Cerebras** | 1M tokens/day | Llama 3.1, Qwen 3 | [Get Key](https://cloud.cerebras.ai/) |
+| **Cloudflare Workers AI** | 10K neurons/day | 50+ models | [Get Key](https://dash.cloudflare.com/) |
+
+### Quick Example with Google Gemini:
+
+```python
+from langchain_ollama import ChatOllama
+
+# Use free Gemini API
+llm = ChatOllama(
+    model="gemini-2.0-flash",
+    base_url="https://generativelanguage.googleapis.com/v1beta"
+)
+# Note: Gemini requires API key in base_url
+```
+
+---
+
 ## 🔗 Free Resources & Repositories
 
 | # | Repository | Stars | Purpose |
@@ -120,6 +148,7 @@ cat README.md
 | 8 | [Awesome MCP](https://github.com/punkpeye/awesome-mcp-servers) | 12k ⭐ | MCP Servers |
 | 9 | [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 18k ⭐ | Templates |
 | 10 | [AI Agents Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 15k ⭐ | Curriculum |
+| 11 | [Awesome Free LLM APIs](https://github.com/mnfst/awesome-free-llm-apis) | 5k ⭐ | Free API Keys |
 
 ---
 
