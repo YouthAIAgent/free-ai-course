@@ -31,35 +31,64 @@
 
 ---
 
-## 🚀 Quick Start
+## 🚀 How to Use This Course (Simple Guide)
 
-### 1️⃣ Install Ollama (30 seconds)
+### 📖 How to Follow:
+
+**This is a documentation course - just READ and LEARN!**
+
+#### Step 1: Open README
+Go to [`README.md`](README.md) on GitHub or download this folder
+
+#### Step 2: Start with Day 1
+Open [`Week1-Week4/Lessons/Day1.md`](Week1-Week4/Lessons/Day1.md)
+
+#### Step 3: Follow Each Day
+- Read the lesson
+- Practice code on YOUR computer (optional)
+- Complete the exercise
+
+---
+
+### 💻 Optional: Run Code on Your PC
+
+If you want to try the examples:
 
 ```bash
-# Linux / macOS
+# 1. Install Ollama
 curl -fsSL https://ollama.com/install.sh | sh
 
-# Windows → Download from https://ollama.com/download
-
-# Android (Termux)
-pkg install ollama
-```
-
-### 2️⃣ Download Model (2 minutes)
-
-```bash
+# 2. Download model
 ollama pull qwen2.5:3b
+
+# 3. Install Python (Windows: python.com/download)
+
+# 4. Install LangChain
+pip install langchain langchain-ollama
+
+# 5. Run example
+python example.py
 ```
 
-### 3️⃣ Start Learning
+**But you can also just READ without running anything!**
 
-```bash
-# Clone course
-git clone https://github.com/YouthAIAgent/free-ai-course.git
-cd free-ai-course
+---
 
-# Read course
-cat README.md
+### 📱 Read on Any Device:
+
+| Device | Method |
+|--------|--------|
+| Phone 📱 | GitHub mobile app |
+| PC 💻 | GitHub website |
+| Offline 🌐 | Download as ZIP |
+
+---
+
+### 🎯 Quick:
+
+```
+DON'T: npm install, localhost, python server
+DO: Read README → Follow Days → Practice
 ```
 
 ---
